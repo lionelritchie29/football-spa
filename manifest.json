@@ -1,0 +1,42 @@
+{
+  "name": "FootballSpa",
+  "short_name": "FootballSpa",
+  "description": "FootballSpa provides matches, teams, and standings data from Spain Football Team",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#21BF73",
+  "theme_color": "#21BF73",
+  "gcm_sender_id": "498571968816",
+  "icons": [
+    {
+      "src": "/assets/logo/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/logo-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/logo-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/logo-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo/logo-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}

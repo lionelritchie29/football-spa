@@ -1,0 +1,166 @@
+/* blinker-regular - latin */
+@font-face {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/blinker-v3-latin-regular.woff2") format("woff2");
+}
+/* blinker-600 - latin */
+@font-face {
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/blinker-v3-latin-600.woff2") format("woff2");
+}
+
+/* nova-square-regular - latin */
+@font-face {
+  font-family: "Nova Square";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/nova-square-v12-latin-regular.woff2")
+    format("woff2");
+}
+
+:root {
+  --primary: #21bf73;
+  --primary-light: #b0eacd;
+  --secondary: #fd5e53;
+  --surface: #f9fcfb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface);
+  font-family: "Nova Square", cursive;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-surface {
+  background-color: var(--surface);
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.preloader-container {
+  display: flex;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nav */
+.logo {
+  vertical-align: middle;
+}
+
+/* main */
+.standing-btn:hover {
+  background-color: #1b9b5e;
+}
+
+.favorite-btn:hover {
+  background-color: #2ba166;
+  color: #fff !important;
+}
+
+/* matches */
+.scheduled-badge {
+  background-color: #e5d429;
+  color: black !important;
+}
+
+.match-time {
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.match-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* teams */
+.team-img {
+  width: 60% !important;
+  height: 15rem !important;
+  margin: 0 auto !important;
+  padding-top: 1.5rem !important;
+}
+
+.team-title {
+  font-size: 1.2rem;
+}
+
+/* standings */
+.standing-table {
+  margin-bottom: 3rem;
+}
+
+.standing-team-img {
+  height: 2rem !important;
+}
+
+.standing-table-head {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* team detail */
+.team-detail {
+  font-family: "Blinker", sans-serif;
+}
+
+.team-desc-title {
+  font-weight: 600;
+}
+
+.team-squad-number {
+  font-size: 1.5rem;
+  padding-top: 0.75rem;
+  color: white;
+}
+
+/* favorite */
+.favorite {
+  margin-top: 1.5rem;
+}
+
+/* footer */
+.footer-top li {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.footer-top li a {
+  color: #fff;
+}
+
+.footer-top li a:hover {
+  text-decoration: underline;
+}
+
+/* not found */
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1140px) {
+  .main-text {
+    padding-top: 7rem !important;
+  }
+}

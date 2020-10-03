@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FootballSpa</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendor/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#21BF73" />
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-icon-192x192.png" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar-fixed">
+      <nav class="bg-primary">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo nav-link"> FootballSpa</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">☰</i></a
+            >
+            <ul class="right hide-on-med-and-down topnav"></ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <ul class="sidenav" id="mobile-demo"></ul>
+    <!-- End of Navbar -->
+
+    <!-- Content -->
+    <main id="content" class="container"></main>
+    <!-- End of Content -->
+
+    <!-- Footer -->
+    <footer class="page-footer bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">FootballSpa</h5>
+            <p class="grey-text text-lighten-4">
+              FootballSpa (Football Spain) is a non-profit site that display
+              matches, teams, and standings of all football teams from Spain.
+              Football data provided by the Football-Data.org API. Illustration
+              from Delesign.com
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul class="footer-top"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright bg-primary-dark">
+        <div class="container">
+          Copyright &copy; 2020 FootballSpa Team
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="js/vendor/materialize.min.js"></script>
+    <script src="js/script/register-service-worker.js"></script>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
